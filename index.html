@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع السادس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع السادس</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1.  كيف تساهم الشمس في الحياة على كوكب الأرض؟</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c">  تعمل كمصدر أساسي للطاقة الكهربائية فقط .</label>
+                <label><input type="radio" name="q1" value="b">  توفر الطاقة اللازمة لنمو النباتات وتوليد الطاقة المتجددة .</label>
+               	<label><input type="radio" name="q1" value="a">  تساهم في إنتاج الغذاء فقط .</label>			
+							
+            </div>
+        </div>
+
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. كيف يمكن أن يؤثر قانون حفظ الطاقة في تصميم الأجهزة الحديثة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a"> لا يؤثر على تصميم الأجهزة الحديثة .</label>
+                <label><input type="radio" name="q2" value="b"> يتجاهل الطاقة المفقودة في الأجهزة .</label>
+                <label><input type="radio" name="q2" value="c">   يساعد في تحسين كفاءة الأجهزة من خلال استغلال جميع أشكال الطاقة .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. كيف يمكن للدول ذات الظروف المناخية غير المناسبة لاستخدام الطاقة الشمسية الاستفادة من أشكال طاقة أخرى؟</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a"> باستخدام طاقة الرياح أو الطاقة المائية لتوليد الكهرباء .</label>
+                <label><input type="radio" name="q3" value="b"> باستخدام الطاقة الشمسية فقط في أوقات معينة .</label>
+                <label><input type="radio" name="q3" value="c"> الاعتماد فقط على الطاقة غير المتجددة .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. ما العوامل التي تؤثر في كفاءة تحويل الطاقة الكيميائية إلى طاقة حركية في السيارة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a"> حجم السيارة وعدد الركاب .</label>
+                <label><input type="radio" name="q4" value="b">  نوع الوقود المستخدم وسرعة السيارة .</label>
+                <label><input type="radio" name="q4" value="c">   السرعة الثابتة للسيارة فقط .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. أي من هذه الطاقة يمكن أن تتحول إلى طاقة حرارية؟</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a"> الطاقة الكيميائية .</label>
+                <label><input type="radio" name="q5" value="b"> الطاقة الكهربية .</label>
+                <label><input type="radio" name="q5" value="c"> الاثنين معاً .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6.  ما هو قانون حفظ الطاقة؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b"> الطاقة تفنى في نهاية المطاف .</label>
+				<label><input type="radio" name="q6" value="a"> الطاقة تستحدث من العدم .</label>
+                <label><input type="radio" name="q6" value="c">   الطاقة لا تفنى ولا تستحدث .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7.  كانت فاطمة تقوم بتجربة في مدرستها باستخدام الألواح الشمسية لتحويل الضوء إلى طاقة كهربائية. اكتشفت أن الشمس هي المصدر الأساسي لهذا النوع من الطاقة. ما هو النوع الذي تتحول إليه الطاقة الشمسية عند امتصاص الألواح لها؟</p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b"> الطاقة الحركية .</label>
+				<label><input type="radio" name="q7" value="a"> الطاقة الكهربائية .</label>
+                <label><input type="radio" name="q7" value="c"> الطاقة الحرارية .</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. أحمد كان يقود دراجته النارية في أحد الأيام. بينما كان يسير بسرعة، فكر في كيفية تحول الطاقة داخل دراجته. ما هو نوع الطاقة التي تتحول إلى طاقة حركية أثناء قيادة الدراجة؟</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b"> الطاقة الحركية .</label>
+				<label><input type="radio" name="q8" value="a"> الطاقة الكيميائية .</label>
+                <label><input type="radio" name="q8" value="c"> الطاقة الكهربائية .</label>
+            </div>
+        </div>
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'b',
+                q2: 'c',
+                q3: 'a',
+                q4: 'b',
+                q5: 'c',
+				q6: 'c',
+				q7: 'a',
+				q8: 'a',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 8 أسئلة`;
+        }
+    </script>
+</body>
+</html>
